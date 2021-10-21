@@ -33,6 +33,7 @@
     font-family: 'Times New Roman', Times, serif;
  
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -53,13 +54,13 @@ html{
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
-  .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
     text-decoration: none;
     color: #5cb85c;
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
-  }
+}
 
 .grow { transition: all .3s ease-in-out; cursor: pointer;}
 .grow:hover { transform: scale(1.1); }
